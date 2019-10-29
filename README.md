@@ -1,1 +1,1 @@
-This is the source code from the [tutorial on the ReactJS.NET site](https://reactjs.net/getting-started/tutorial.html).
+Quick React and .NET project for Yvonne
