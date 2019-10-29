@@ -7,6 +7,9 @@
 		<PackageId>tutorial-code</PackageId>
 	</PropertyGroup>
 	<ItemGroup>
+	  <None Remove="README.md" />
+	</ItemGroup>
+	<ItemGroup>
 		<None Include="App.config" />
 		<None Update="wwwroot\**\*;Views\**\*;Areas\**\Views">
 			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>

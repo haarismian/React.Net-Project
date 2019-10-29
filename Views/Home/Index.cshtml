@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	// server side rendering of initial state
+	@*// server side rendering of initial state*@
 	@Html.React("CommentBox", new
 	{
 		initialData = Model,
@@ -20,7 +20,7 @@
 	<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.8.0/umd/react-dom.development.js"></script>
 	<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.0/prop-types.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>
-	<script src="@Url.Content("~/js/tutorial.jsx")"></script>
+	<script src="@Url.Content("~/js/commentpage.jsx")"></script>
 	@Html.ReactInitJavaScript()
 </body>
 </html>
