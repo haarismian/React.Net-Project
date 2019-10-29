@@ -16,7 +16,7 @@ namespace ReactDemo.Controllers
 				{
 					Id = 1,
 					Author = "Yvonne Zhang",
-					Text = "Hello Haaris"
+					Text = "Hello Haaris, This was loaded from the server"
 				},
 				new CommentModel
 				{
